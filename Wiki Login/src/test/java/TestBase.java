@@ -1,5 +1,3 @@
-package com.telran.selenium;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -11,17 +9,14 @@ public class TestBase {
     WebDriver driver;
 
     @BeforeMethod
-    public void setUp() throws InterruptedException {
 
+        public void setUp(){
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        //def waiting
-       //driver.get("https://www.google.com");
-
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
     }
 
     @AfterMethod
-    public void tearDown() {
+    public void tearDown(){
         driver.quit();
     }
 }

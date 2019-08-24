@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Wiki Login.iml" filepath="$PROJECT_DIR$/.idea/modules/Wiki Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Wiki_Login.iml" filepath="$PROJECT_DIR$/.idea/modules/Wiki_Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Wiki_Login.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Wiki_Login.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Wiki_Login.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Wiki_Login.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/first-project.iml" filepath="$PROJECT_DIR$/.idea/modules/first-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/first-project.main.iml" filepath="$PROJECT_DIR$/.idea/modules/first-project.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/first-project.test.iml" filepath="$PROJECT_DIR$/.idea/modules/first-project.test.iml" />

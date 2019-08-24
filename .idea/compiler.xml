@@ -8,6 +8,8 @@
       <module name="QA-21.first-project.test" target="1.8" />
       <module name="search_wiki.main" target="1.8" />
       <module name="search_wiki.test" target="1.8" />
+      <module name="Wiki_Login.main" target="1.8" />
+      <module name="Wiki_Login.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
