@@ -7,23 +7,18 @@ public class LoginToEbay extends TestBase
     @Test
     public void loginTest()
     {
-        driver.get("https://ebay.com");
-        click(By.id("gh-ug"));
+        openSite("https://ebay.com");
+        initLogin();
+        //init login
 
-        click(By.id("userid"));
-        driver.findElement(By.id("userid")).clear();
-        driver.findElement(By.id("userid")).sendKeys("tesla@test.com");
+        fillLoginForm("tesla@test.com", "1223errt4");
 
         click(By.id("pass"));
         driver.findElement(By.id("pass")).clear();
         driver.findElement(By.id("pass")).sendKeys("123werd");
 
-        click(By.id("sgnBt"));
-
+        cliclkLoginButton();
     }
 
-    public void click(By locator) {
-        driver.findElement(locator).click();
-    }
 
 }

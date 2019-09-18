@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Wiki Login.iml" filepath="$PROJECT_DIR$/.idea/Wiki Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Wiki_Login.iml" filepath="$PROJECT_DIR$/.idea/modules/Wiki_Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Wiki_Login.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Wiki_Login.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Wiki_Login.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Wiki_Login.test.iml" />
+    </modules>
+  </component>
+</project>

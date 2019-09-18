@@ -13,7 +13,7 @@ public class OpenGoogleTest extends TestBase{
 
     @Test
     public void searchJavaTest() throws InterruptedException {
-        driver.get("https://www.google.com");
+        openSite("https://www.google.com");
         driver.findElement(By.name("q")).click();
         driver.findElement(By.name("q")).clear();
         driver.findElement(By.name("q")).sendKeys("java"+ Keys.ENTER);

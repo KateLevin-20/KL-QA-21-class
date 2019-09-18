@@ -1,31 +1,23 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class WikiLoginHw extends TestBase
-{
-@Test
-    public void loginTest() throws InterruptedException {
-    driver.get("https://en.wikipedia.org");
-    click(By.id("pt-login"));
+public class WikiLoginHw extends TestBase {
 
-    click(By.id("wpName1"));
-    driver.findElement(By.id("wpName1")).clear();
-    driver.findElement(By.id("wpName1")).sendKeys("mamama@test.com");
+    @Test
+    public void loginTest() {
+        app.getLogin().click(By.id("pt-login"));
+        app.getLogin().type(By.id("wpName1"), "mamama@test.com");
+        app.getLogin().type(By.id("wpPassword1"), "qwert123");
 
-    click(By.id("wpPassword1"));
-    driver.findElement(By.id("wpPassword1")).clear();
-    driver.findElement(By.id("wpPassword1")).sendKeys("qwert123");
+        Assert.assertTrue(app.getLogin().isElementPresent(By.cssSelector("[id='pt-anonuserpage']")));
 
-    Thread.sleep(7000);
 
-}
-
-    public void click(By locator) {
-        driver.findElement(locator).click();
     }
 
-
-{
-
 }
-}
+
+
+
+

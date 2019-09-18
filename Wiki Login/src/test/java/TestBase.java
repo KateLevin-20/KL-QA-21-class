@@ -1,22 +1,22 @@
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import com.wiki.qa.ApplicationManager;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 
-import java.util.concurrent.TimeUnit;
+public class TestBase{
 
-public class TestBase {
-    WebDriver driver;
+    protected static ApplicationManager app = new ApplicationManager();
 
-    @BeforeMethod
+    @BeforeSuite
 
         public void setUp(){
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+        app.init();
     }
 
-    @AfterMethod
+    @AfterSuite
     public void tearDown(){
-        driver.quit();
+        app.stop();
     }
+
 }
