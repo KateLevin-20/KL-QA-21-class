@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="WikiLoginHw" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-21T13:01:14" hostname="LAPTOP-0PPAN3RT" time="1.114">
+<testsuite name="WikiLoginHw" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-09T09:13:34" hostname="LAPTOP-0PPAN3RT" time="1.103">
   <properties/>
-  <testcase name="loginTest" classname="WikiLoginHw" time="1.114"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="loginTest" classname="WikiLoginHw" time="1.103"/>
+  <system-out><![CDATA[12:13:34.784 [Test worker] INFO  WikiLoginHw - Start wiki login test
+12:13:35.893 [Test worker] INFO  WikiLoginHw - Stop wiki login test
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
